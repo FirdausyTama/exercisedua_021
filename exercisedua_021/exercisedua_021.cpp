@@ -66,4 +66,5 @@ int main() {
 	bujursangkar.input();
 	cout << "Luas Bujursangkar = " << bujursangkar.Luas(bujursangkar.getX()) << endl;
 	cout << "Keliling Bujursangkar = " << bujursangkar.Keliling(bujursangkar.getX()) << endl;
+	return 0;
  }
