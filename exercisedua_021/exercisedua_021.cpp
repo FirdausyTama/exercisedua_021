@@ -53,14 +53,13 @@ public:
 
 
 int main() {
-	bidangDatar* obj;
 	Lingkaran lingkaran;
 	Bujursangkar bujursangkar;
 
 	cout << "Lingkaran dibuat" << endl;
 	lingkaran.input();
-	cout << "Lingkaran luas = " << lingkaran.Luas(lingkaran.getX()) << endl;
-	cout << "Lingkaran keliling = " << lingkaran.Keliling(lingkaran.getX()) << endl;
+	cout << "Luas lingkaran = " << lingkaran.Luas(lingkaran.getX()) << endl;
+	cout << "Keliling lingkaran = " << lingkaran.Keliling(lingkaran.getX()) << endl;
 	cout << "\n" << endl;
 	cout << "Bujursangkar dibuat" << endl;
 	bujursangkar.input();
